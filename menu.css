@@ -1,0 +1,179 @@
+/* --- static menu styles ---
+note:
+	1. not all browsers render styles the same way so try out your style sheet
+	on different browsers before publishing;
+style naming convention:
+	m<zero based menu number>l<zero based level number>i|o<for inner or outer tag>
+*/
+
+
+   /* Generic Selectors */ 
+
+    body { 
+
+    font-family: Verdana,  serif;
+    font-size: 14px; 
+    color: rgb(230, 245, 255);
+    background-color: rgb(0, 0, 00);
+    } 
+
+
+    p { 
+    color: rgb(230, 245, 255);
+    width: 100%; 
+    font-family: Verdana, serif;
+    font-size: 14px; 
+    }
+
+   table.myTable th, table.myTable td, table.myTable tr {
+    padding: 10;
+    text-align: justify;
+    border: 1px white;
+    vertical-align:top;
+    font-size: 14px; 
+    color: rgb(230, 245, 255);
+    font-family: Verdana, serif;
+    background : rgb(10, 20, 30); }
+
+    li {
+    font-family: Verdana, serif;
+    font-size: 14px; 
+    list-style-type: none; 
+    line-height: 150%; 
+    list-style-image: url(../images/arrowSmall.gif); 
+    } 
+
+    h1 { 
+    font-family: Verdana,  serif;
+    font-size: 18px; 
+    font-weight: normal; 
+    color: rgb(220, 230, 255); 
+    } 
+
+	
+    h2 { 
+    font-family: Verdana, serif; 
+    font-size: 16px;
+    font-weight: normal; 
+    color:rgb(220, 230, 255);
+    } 
+
+ 
+    /**************** Pseudo classes ****************/ 
+
+    :link { 
+
+    color: rgb(150, 200, 250); 
+    text-decoration: none; 
+    font-weight: none; 
+    } 
+
+
+    li :link { 
+    color: rgb(150, 200, 250);
+    text-decoration: none; 
+    font-weight: none; 
+    } 
+
+    
+    :visited { 
+    color: rgb(150, 220, 250);
+    text-decoration: none; 
+    font-weight: none; 
+    } 
+
+
+    li :visited { 
+    color: rgb(150, 220, 250);
+    text-decoration: none; 
+    font-weight: none; 
+    } 
+
+   
+    :hover {
+    color: rgb(170, 250, 220);
+    padding-bottom: 1px; 
+    font-weight: none; 
+    border-bottom-width: 1px; 
+    border-bottom-style: solid; 
+    border-bottom-color: rgb(170, 250, 220); 
+    } 
+
+    li :hover { 
+    color: rgb(170, 250, 220);
+    padding-bottom: 1px; 
+    font-weight: none; 
+    border-bottom-width: 1px; 
+    border-bottom-style: solid; 
+    border-bottom-color: rgb(170, 250, 220); 
+    } 
+
+
+   :active { 
+    color: rgb(170, 250, 220);
+    padding-bottom: 1px; 
+    font-weight: none; 
+    border-bottom-width: 3px; 
+    border-bottom-style: solid; 
+    border-bottom-color: rgb(170, 250, 220); 
+    } 
+
+   
+    /************************* ID's *************************/ 
+
+    #navigation { 
+    position: absolute;
+    z-index: 10; 
+    width: 210px; 
+    height: 600px; 
+    margin: 0; 
+    margin-top: 50px; 
+    border-right: 1px solid #C6EC8C; 
+    font-weight: normal; 
+    } 
+
+   
+    #centerDoc { 
+    position: absolute; 
+    z-index: 15; 
+    padding: 0 0 20px 235px; /*top right bottom left*/
+    margin-top: 50px; 
+    }
+
+/* MENU */
+/* all levels inner */
+/* VERSION 1 */
+/*
+.minner {
+	font: 14px Verdana;
+	text-decoration : none;
+	padding: 3px;
+	color: rgb(0, 20, 35);
+}
+.moout {
+	text-decoration : none;
+	border : 1px solid rgb(130, 195, 255);
+	background: rgb(220, 230, 255);
+}
+.moover {
+	text-decoration : none;
+	border : 2px solid rgb(130, 195, 255);
+	background: rgb(120, 130, 155);
+}
+*/
+.minner {
+	font: 14px Verdana;
+	text-decoration : none;
+	padding: 4px;
+	color: rgb(230, 245, 255);
+}
+.moout {
+	text-decoration : none;
+	border : 1px solid rgb(20,40,60);
+	background: rgb(10, 20, 30);
+}
+.moover {
+	text-decoration : none;
+	border : 1px solid rgb(10, 35, 55);
+	background: rgb(20, 40, 60);
+}

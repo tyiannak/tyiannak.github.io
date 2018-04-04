@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>
+	Visualization: Theodoros Giannakopoulos: publication content distribution according to the arXiv taxonomy : based on 17 documents
+</title>
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		google.load('visualization', '1', {packages: ['corechart']});
+	</script>	<script type="text/javascript">
+function drawVisualization() {
+var fullLabelNames = [ 'Mathematics - Differential Geometry', 'Computer Science - Neural and Evolutionary Computation', 'Computer Science - Logic in Computer Science', 'Condensed Matter - Other', 'Computer Science - Digital Libraries', 'Mathematics - General Mathematics', 'Computer Science - Software Engineering', 'Computer Science - Computer Vision and Pattern Recognition', 'Condensed Matter - Disordered Systems and Neural Networks', 'Computer Science - Sound', 'Astrophysics - Instrumentation and Methods for Astrophysics', 'Mathematics - K-Theory and Homology', 'Astrophysics - Earth and Planetary Astrophysics', 'Computer Science - Performance', 'Astrophysics - Solar and Stellar Astrophysics', 'Mathematics - Algebraic Geometry', 'Nonlinear Sciences - Exactly Solvable and Integrable Systems', 'Mathematics - Metric Geometry', 'Mathematics - Number Theory', 'Mathematics - Spectral Theory', 'Computer Science - Computers and Society', 'Computer Science - Robotics', 'Physics - Plasma Physics', 'Nuclear Experiment', 'Quantitative Biology - Tissues and Organs', 'Physics - Space Physics', 'Computer Science - Graphics', 'Computer Science - Emerging Technologies', 'Mathematics - Analysis of PDEs', 'Nonlinear Sciences - Cellular Automata and Lattice Gases', 'Physics - Atmospheric and Oceanic Physics', 'Computer Science - Computational Complexity', 'Computer Science - Networking and Internet Architecture', 'Nonlinear Sciences - Pattern Formation and Solitons', 'Computer Science - Information Retrieval', 'Condensed Matter - Mesoscopic Systems and Quantum Hall Effect', 'Computer Science - Programming Languages', 'Computer Science - Computation and Language (Computational Linguistics and Natural Language and Speech Processing)', 'Computer Science - Symbolic Computation', 'Computer Science - Formal Languages and Automata Theory', 'Statistics - Other Statistics', 'Physics - Chemical Physics', 'High Energy Physics - Experiment', 'Computer Science - Multiagent Systems', 'Physics - Atomic and Molecular Clusters', 'Mathematics - Operator Algebras', 'Mathematics - Complex Variables', 'General Relativity and Quantum Cosmology', 'Computer Science - Human-Computer Interaction', 'Mathematics - Optimization and Control', 'Quantitative Biology - Neurons and Cognition', 'Computer Science - Artificial Intelligence', 'Physics - Optics', 'Physics - Classical Physics', 'Mathematics - Dynamical Systems', 'Computer Science - Cryptography and Security', 'Mathematics - Logic', 'Astrophysics - High Energy Astrophysical Phenomena', 'Mathematics - Group Theory', 'Mathematics - Geometric Topology', 'Quantitative Biology - Molecular Networks', 'High Energy Physics - Lattice', 'Physics - Data Analysis; Statistics and Probability', 'Computer Science - Computational Engineering, Finance, and Science', 'Condensed Matter - Superconductivity', 'Physics - Physics Education', 'Physics - Accelerator Physics', 'Physics - History of Physics', 'Physics - Computational Physics', 'Condensed Matter - Strongly Correlated Electrons', 'Condensed Matter - Soft Condensed Matter', 'Statistics - Computation', 'Computer Science - Information Theory', 'Physics - Geophysics', 'Computer Science - Data Structures and Algorithms', 'Mathematics - Functional Analysis', 'Nuclear Theory', 'Quantitative Biology - Other', 'Quantum Physics', 'Computer Science - General Literature', 'Condensed Matter - Statistical Mechanics', 'Computer Science - Databases', 'Computer Science - Social and Information Networks', 'Nonlinear Sciences - Chaotic Dynamics', 'Mathematics - History and Overview', 'Computer Science - Machine Learning', 'Physics - Popular Physics', 'Mathematics - General Topology', 'Statistics - Methodology', 'Quantitative Biology - Biomolecules', 'Mathematics - Commutative Algebra', 'Physics - Fluid Dynamics', 'Quantitative Biology - Genomics', 'Nonlinear Sciences - Adaptation and Self-Organizing Systems', 'Physics - Biological Physics', 'Mathematics - Mathematical Physics', 'Computer Science - Distributed, Parallel, and Cluster Computing', 'Statistics - Applications', 'Astrophysics - Galaxy Astrophysics', 'Mathematics - Classical Analysis and ODEs', 'Mathematics - Quantum Algebra', 'Computer Science - Numerical Analysis', 'Mathematics - Probability', 'Mathematics - Algebraic Topology', 'Quantitative Biology - Cell Behavior', 'Mathematics - Representation Theory', 'Quantitative Biology - Populations and Evolution', 'Physics - Medical Physics', 'Quantitative Biology - Subcellular Processes', 'Computer Science - Computational Geometry', 'Computer Science - Hardware Architecture', 'Mathematics - Numerical Analysis', 'Mathematics - Rings and Algebras', 'Statistics - Machine Learning', 'Mathematics - Category Theory', 'Computer Science - Discrete Mathematics', 'Computer Science - Multimedia', 'Mathematics - Symplectic Geometry', 'Physics - General Physics', 'Condensed Matter - Materials Science', 'Statistics - Theory', 'Computer Science - Computer Science and Game Theory', 'Physics - Physics and Society', 'Condensed Matter - Quantum Gases', 'Mathematics - Combinatorics', 'High Energy Physics - Theory', 'Computer Science - Other', 'Computer Science - Mathematical Software', 'Computer Science - Operating Systems', 'Quantitative Biology - Quantitative Methods', 'Computer Science - Systems and Control', 'Physics - Instrumentation and Detectors', 'Astrophysics - Cosmology and Extragalactic Astrophysics', 'High Energy Physics - Phenomenology', 'Physics - Atomic Physics']; var data = google.visualization.arrayToDataTable([
+	['Label ID',	'',	'',	'General Gategory',	'Average Probability'],
+	['math.DG',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['cs.NE',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['cs.LO',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['cond-mat.other',	-100.0,	-100.0,	'Condensed Matter', 0.0],
+	['cs.DL',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['math.GM',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['cs.SE',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['cs.CV',	33,	0,	'Computer Science', 0.128856372552],
+	['cond-mat.dis-nn',	-100.0,	-100.0,	'Condensed Matter', 0.0],
+	['cs.SD',	28,	1,	'Computer Science', 0.241786626069],
+	['astro-ph.IM',	-100.0,	-100.0,	'Astrophysics', 0.0],
+	['math.KT',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['astro-ph.EP',	-100.0,	-100.0,	'Astrophysics', 0.0],
+	['cs.PF',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['astro-ph.SR',	-100.0,	-100.0,	'Astrophysics', 0.0],
+	['math.AG',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['nlin.SI',	-100.0,	-100.0,	'Nonlinear Sciences', 0.0],
+	['math.MG',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['math.NT',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['math.SP',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['cs.CY',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['cs.RO',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['physics.plasm-ph',	-100.0,	-100.0,	'Physics', 0.0],
+	['nucl-ex',	-100.0,	-100.0,	'All', 0.0],
+	['q-bio.TO',	-100.0,	-100.0,	'Quantitative Biology', 0.0],
+	['physics.space-ph',	-100.0,	-100.0,	'Physics', 0.0],
+	['cs.GR',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['cs.ET',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['math.AP',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['nlin.CG',	-100.0,	-100.0,	'Nonlinear Sciences', 0.0],
+	['physics.ao-ph',	-100.0,	-100.0,	'Physics', 0.0],
+	['cs.CC',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['cs.NI',	17,	1,	'Computer Science', 0.034996827961],
+	['nlin.PS',	-100.0,	-100.0,	'Nonlinear Sciences', 0.0],
+	['cs.IR',	29,	7,	'Computer Science', 0.0657953510792],
+	['cond-mat.mes-hall',	-100.0,	-100.0,	'Condensed Matter', 0.0],
+	['cs.PL',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['cs.CL',	30,	3,	'Computer Science', 0.0487894767193],
+	['cs.SC',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['cs.FL',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['stat.OT',	-100.0,	-100.0,	'Statistics', 0.0],
+	['physics.chem-ph',	-100.0,	-100.0,	'Physics', 0.0],
+	['hep-ex',	-100.0,	-100.0,	'High Energy Physics', 0.0],
+	['cs.MA',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['physics.atm-clus',	-100.0,	-100.0,	'Physics', 0.0],
+	['math.OA',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['math.CV',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['gr-qc',	-100.0,	-100.0,	'All', 0.0],
+	['cs.HC',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['math.OC',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['q-bio.NC',	-100.0,	-100.0,	'Quantitative Biology', 0.0],
+	['cs.AI',	8,	3,	'Computer Science', 0.0286845116616],
+	['physics.optics',	-100.0,	-100.0,	'Physics', 0.0],
+	['physics.class-ph',	-100.0,	-100.0,	'Physics', 0.0],
+	['math.DS',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['cs.CR',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['math.LO',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['astro-ph.HE',	-100.0,	-100.0,	'Astrophysics', 0.0],
+	['math.GR',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['math.GT',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['q-bio.MN',	-100.0,	-100.0,	'Quantitative Biology', 0.0],
+	['hep-lat',	-100.0,	-100.0,	'High Energy Physics', 0.0],
+	['physics.data-an',	-100.0,	-100.0,	'Physics', 0.0],
+	['cs.CE',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['cond-mat.supr-con',	-100.0,	-100.0,	'Condensed Matter', 0.0],
+	['physics.ed-ph',	-100.0,	-100.0,	'Physics', 0.0],
+	['physics.acc-ph',	-100.0,	-100.0,	'Physics', 0.0],
+	['physics.hist-ph',	-100.0,	-100.0,	'Physics', 0.0],
+	['physics.comp-ph',	-100.0,	-100.0,	'Physics', 0.0],
+	['cond-mat.str-el',	-100.0,	-100.0,	'Condensed Matter', 0.0],
+	['cond-mat.soft',	-100.0,	-100.0,	'Condensed Matter', 0.0],
+	['stat.CO',	34,	9,	'Statistics', 0.100321082054],
+	['cs.IT',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['physics.geo-ph',	-100.0,	-100.0,	'Physics', 0.0],
+	['cs.DS',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['math.FA',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['nucl-th',	-100.0,	-100.0,	'All', 0.0],
+	['q-bio.OT',	-100.0,	-100.0,	'Quantitative Biology', 0.0],
+	['quant-ph',	-100.0,	-100.0,	'All', 0.0],
+	['cs.GL',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['cond-mat.stat-mech',	-100.0,	-100.0,	'Condensed Matter', 0.0],
+	['cs.DB',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['cs.SI',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['nlin.CD',	-100.0,	-100.0,	'Nonlinear Sciences', 0.0],
+	['math.HO',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['cs.LG',	39,	0,	'Computer Science', 0.0663489197632],
+	['physics.pop-ph',	-100.0,	-100.0,	'Physics', 0.0],
+	['math.GN',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['stat.ME',	39,	6,	'Statistics', 0.0096838529464],
+	['q-bio.BM',	-100.0,	-100.0,	'Quantitative Biology', 0.0],
+	['math.AC',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['physics.flu-dyn',	-100.0,	-100.0,	'Physics', 0.0],
+	['q-bio.GN',	-100,	-100,	'Quantitative Biology', 0.0],
+	['nlin.AO',	-100.0,	-100.0,	'Nonlinear Sciences', 0.0],
+	['physics.bio-ph',	-100.0,	-100.0,	'Physics', 0.0],
+	['math.MP',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['cs.DC',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['stat.AP',	-100.0,	-100.0,	'Statistics', 0.0],
+	['astro-ph.GA',	-100.0,	-100.0,	'Astrophysics', 0.0],
+	['math.CA',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['math.QA',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['cs.NA',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['math.PR',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['math.AT',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['q-bio.CB',	-100.0,	-100.0,	'Quantitative Biology', 0.0],
+	['math.RT',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['q-bio.PE',	-100.0,	-100.0,	'Quantitative Biology', 0.0],
+	['physics.med-ph',	-100.0,	-100.0,	'Physics', 0.0],
+	['q-bio.SC',	-100.0,	-100.0,	'Quantitative Biology', 0.0],
+	['cs.CG',	3,	5,	'Computer Science', 0.015402170553],
+	['cs.AR',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['math.NA',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['math.RA',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['stat.ML',	39,	0,	'Statistics', 0.0607361892811],
+	['math.CT',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['cs.DM',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['cs.MM',	30,	0,	'Computer Science', 0.184350100221],
+	['math.SG',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['physics.gen-ph',	-100.0,	-100.0,	'Physics', 0.0],
+	['cond-mat.mtrl-sci',	-100.0,	-100.0,	'Condensed Matter', 0.0],
+	['stat.TH',	-100.0,	-100.0,	'Statistics', 0.0],
+	['cs.GT',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['physics.soc-ph',	-100.0,	-100.0,	'Physics', 0.0],
+	['cond-mat.quant-gas',	-100.0,	-100.0,	'Condensed Matter', 0.0],
+	['math.CO',	-100.0,	-100.0,	'Mathematics', 0.0],
+	['hep-th',	-100.0,	-100.0,	'High Energy Physics', 0.0],
+	['cs.OH',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['cs.MS',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['cs.OS',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['q-bio.QM',	-100.0,	-100.0,	'Quantitative Biology', 0.0],
+	['cs.SY',	-100.0,	-100.0,	'Computer Science', 0.0],
+	['physics.ins-det',	-100.0,	-100.0,	'Physics', 0.0],
+	['astro-ph.CO',	-100.0,	-100.0,	'Astrophysics', 0.0],
+	['hep-ph',	-100.0,	-100.0,	'High Energy Physics', 0.0],
+	['physics.atom-ph',	-100.0,	-100.0,	'Physics', 0.0] ]);
+		var options = {
+		title: 'Theodoros Giannakopoulos: publication content distribution according to the arXiv taxonomy : based on 17 documents',
+		hAxis: {title: ''},
+		vAxis: {title: ''},
+		hAxis: {viewWindow: {min: -2, max: 41}, gridlines: {count:0 }, baselineColor: '#FFFFFF'},
+		vAxis: {viewWindow: {min: -2, max: 41}, gridlines: {count:0 }, baselineColor: '#FFFFFF'},
+		bubble: {textStyle: {fontSize: 10}}
+		};
+		var chart = new google.visualization.BubbleChart(document.getElementById('visualization'));
+		chart.draw(data, options);
+		google.visualization.events.addListener(chart, 'select', selectHandler);
+		function selectHandler() {
+		var selection = chart.getSelection();
+		var message = '';
+		for (var i = 0; i < selection.length; i++) {
+		var item = selection[i];
+		message += fullLabelNames[item.row];}
+		alert(message);		}}
+google.setOnLoadCallback(drawVisualization);
+</script>
+</head>
+<body style="font-family: Arial;border: 0 none;">
+  <div id="visualization" style="width: 900px; height: 800px;"></div>
+</body>
+</html>

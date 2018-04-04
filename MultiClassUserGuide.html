@@ -1,0 +1,67 @@
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE>Theodoros Giannakopoulos - Personal Web Page</TITLE>
+	<META NAME="CREATED" CONTENT="20060626;16102164">
+	<META NAME="CHANGED" CONTENT="20060626;16123251">		
+	<link rel="stylesheet" href="menu.css">
+	<style type="text/css">
+	<!--
+	body { font-size: 12px; font-family: Arial, Helvetica, sans-serif; margin-top: 20px; margin-left: 20px }
+	td { font-size: 15px; font-family: Arial, Helvetica, sans-serif }
+	h2 { font-size: 17px; font-family: Arial, Helvetica, sans-serif ; line-height: 12px }
+	.small { font-size: 10px; font-family: Arial, Helvetica, sans-serif; line-height: 14px }
+.style3 {color: #009900}
+	-->
+	</style>
+</HEAD>
+<BODY LANG="el-GR" BGCOLOR="#d0dfd5" DIR="LTR">
+<table width="90%" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr>
+    <td align="center"> <font size = 5 color = "#114422" face = "Verdana">Theodoros Giannakopoulos: Personal Web Page <br>
+        <a href="Software.html"><font color="#114422">SOFTWARE</font></a> / <strong>MULTI-CLASS AUDIO SEGMENTATION TOOL</strong></font></td>	
+	<td>								
+	</td>
+</tr>
+
+</table>
+<HR>
+
+<!--<HR>-->
+<TABLE width="90%" CELLPADDING=2 CELLSPACING=2 align="center">
+  <TR VALIGN=TOP> 
+    <TD bgcolor="#f0fff5"><P><font color="#448866" face="Verdana"><strong></strong></font><font color="#448866" face="Verdana"><strong><h2 align="center">USER's GUIDE</h2></strong></font>
+<P><font color="#448866" face="Verdana"><strong>Installation:</strong> </font>
+<P><font color="#448866" face="Verdana">Simply run the Gui_segmentation.exe you will find in the zipped folder. If you do not have <em>Matlab v. 7.0.0 (R)</em> installed on your Pc, you will have to download the <strong><em>Matlab   				Component Runtime</em></strong> installer from <a href="http://www.di.uoa.gr/~sp_mu/downloads/MCRInstaller.exe">here</a> .</font>
+<P>
+<P><font color="#448866" face="Verdana"><strong>Using the GUI:</strong></font>
+<P><font color="#448866" face="Verdana"><strong>1)</strong> Press <strong>Open File</strong> Button, in order to load a .wav file.</font>
+<P><font color="#448866" face="Verdana"><strong>2)</strong> Press <strong>Segmentation</strong> Button and wait till the process is completed.</font>
+<P><font color="#448866" face="Verdana"><strong>3)</strong> When the segmentation process is completed, the results are <strong>plotted in the figure in the middle of the GUI</strong>. Different colours represent segments with different class labels. There is a label in the top of this figure, that explains the labels (e.g. music is blue, etc).</font>
+<P><font color="#448866" face="Verdana"><strong>4)</strong> If your audio stream is <strong>longer than 2 minutes</strong>, it is broken into sub-streams of 2 minutes. In that case, you can browse through different sub-streams using the <strong>combo box</strong> on the right of the GUI. </font>
+<P><font color="#448866" face="Verdana">Also, you can <em><strong>listen to</strong></em> each segment by clicking on th <strong>Play Segment</strong> Button and then selecting the segment you want, using the mouse.</font>
+<P><font color="#448866" face="Verdana"><strong>5)</strong> Bellow the figure in which the segmentation results are plotted, there is another figure in which<strong> the probability of the winner class</strong> of each segment is plotted. Higher values of that probability mean more certainty for the classification decision. The DEMO gives you the ability to use a threshold on that probability: using the <strong>Threshold</strong> slider, you can increase the threshold value. Then, by pressing the <strong>&quot;Resegmentation&quot;</strong> button, the segments that have a lower classification probability than the required threshold, are left <strong>unclassified</strong>.</font>
+<P><img src="./Software/Screenshot1.jpg" alt="Screenshot" width="1163" height="681">
+      <div align="left">
+        <p><font color="#448866" face="Verdana"><strong>6)</strong> <strong>ERROR COMPUTATION:</strong>  When the .wav file is loaded, the program looks for a .mat file named [wavFileName]_labels.mat that has the true class labels for the specific wav file, stored in an array. If this file is found, then after the segmentation process, some performance measures are also calculated (see 2nd figure). If you want to generate such annotation files, you can use the <a href="http://www.di.uoa.gr/~tyiannak/Annotation.php">Manual Audio Annotation Tool</a>. In figue 2, a screenshot is presented when the loaded .wav file has been manually annotated and the labels file is found. In that case, another figure is shown, below the segmentation results figure. This second figure has the TRUE LABELS, as defined in the manual annotation stage. Also, the overall performance is calculated (here is 57.7%). Furthermore, as described above, if we change the threshold value and press &quot;Resegmentation&quot; the performance will probably increase, but some segments (those with a low classification probability) will be left unclassified. Finally, if you press the <strong>&quot;Test Threshold Values&quot;</strong> button (which is now enabled), a figure will be shown  which will plot the segmentation performance, for different threshold values.</font></p>
+        <p><img src="./Software/Screenshot2.jpg" alt="Screenshot2" width="1160" height="680"></p>
+      <font color="#448866" face="Verdana">For any problems with the demo or ideas - suggestions please contact me at <a href="mailto:tyiannak@di.uoa.gr">tyiannak@di.uoa.gr.</a></font></div>
+<P><font color="#448866" face="Verdana"></font>
+<P><span class="style3"><font size="2" face="Verdana"><BR>
+  
+  </font></span><font size="2" face="Verdana"></font><font color="#448866" size="2" face="Verdana"><br>
+    
+    </font>
+</TABLE>
+<P><BR><BR>
+<P><BR><BR>
+<P><BR><BR>
+<P><BR><BR>
+<P><BR><BR>
+
+
+
+
+</P>
+</BODY>
+</HTML>
