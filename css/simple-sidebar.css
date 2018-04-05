@@ -19,16 +19,16 @@
 }
 
 #wrapper.toggled {
-    padding-left: 250px;
+    padding-left: 220px;
 }
 
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
-    left: 250px;
+    left: 220px;
     width: 0;
     height: 100%;
-    margin-left: -250px;
+    margin-left: -220px;
     overflow-y: auto;
     background: #000;
     -webkit-transition: all 0.5s ease;
@@ -38,7 +38,7 @@
 }
 
 #wrapper.toggled #sidebar-wrapper {
-    width: 250px;
+    width: 220px;
 }
 
 #page-content-wrapper {
@@ -49,7 +49,7 @@
 
 #wrapper.toggled #page-content-wrapper {
     position: absolute;
-    margin-right: -250px;
+    margin-right: -220px;
 }
 
 /* Sidebar Styles */
@@ -57,7 +57,7 @@
 .sidebar-nav {
     position: absolute;
     top: 0;
-    width: 250px;
+    width: 220px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -65,7 +65,7 @@
 
 .sidebar-nav li {
     text-indent: 20px;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .sidebar-nav li a {
@@ -87,7 +87,7 @@
 
 .sidebar-nav > .sidebar-brand {
     height: 65px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 60px;
 }
 
@@ -107,7 +107,7 @@ img.myImage1{
 }
 
 table.myTable th, table.myTable td, table.myTable tr {    
-    padding-bottom: 1em;
+    padding-bottom: 0em;
     padding-right: 1em;    
     vertical-align:top;    
     color: rgb(0, 0, 0);    
@@ -115,7 +115,7 @@ table.myTable th, table.myTable td, table.myTable tr {
 
 @media(min-width:768px) {
     #wrapper {
-        padding-left: 250px;
+        padding-left: 220px;
     }
 
     #wrapper.toggled {
@@ -123,7 +123,7 @@ table.myTable th, table.myTable td, table.myTable tr {
     }
 
     #sidebar-wrapper {
-        width: 250px;
+        width: 220px;
     }
 
     #wrapper.toggled #sidebar-wrapper {
